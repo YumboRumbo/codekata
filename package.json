@@ -1,0 +1,35 @@
+{
+  "name": "codekata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch-test": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YumboRumbo/codekata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YumboRumbo/codekata/issues"
+  },
+  "homepage": "https://github.com/YumboRumbo/codekata#readme",
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+     "globals": [
+       "it",
+       "describe",
+       "beforeEach",
+       "afterEach",
+       "before",
+       "after",
+       "context"
+     ]
+   }
+ }
