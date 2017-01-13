@@ -18,18 +18,20 @@
   },
   "homepage": "https://github.com/YumboRumbo/codekata#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "jest": "^18.1.0",
+    "lodash": "^4.17.4",
     "standard": "^8.6.0"
   },
   "standard": {
-     "globals": [
-       "it",
-       "describe",
-       "beforeEach",
-       "afterEach",
-       "before",
-       "after",
-       "context"
-     ]
-   }
- }
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach",
+      "afterEach",
+      "before",
+      "after",
+      "context"
+    ]
+  }
+}

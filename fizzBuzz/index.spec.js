@@ -1,7 +1,6 @@
 // FizzBuzz
 // When a number is divisible by 3, write 'fizz'
 // when a number is divisible by 5, write 'buzz'
-// when a number is divisible by both 3 and 5, write 'fizzbuzz'
 // otherwise, write the number
 const { fizzBuzz } = require('./index')
 const { equal } = require('assert')
