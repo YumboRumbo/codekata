@@ -1,6 +1,6 @@
 const { getLargestNum } = require('./index')
 const { equal } = require('assert')
-const assert = require('chai')
+const { assert } = require('chai')
 
 describe('list-strings', () => {
   describe('getLargestNum', () => {
@@ -18,7 +18,11 @@ describe('list-strings', () => {
     it('should handle empty array', () => {
       const numbers = []
 
-      assert.throw(getLargestNum(numbers), /Empty array/)
+      const fn = () => {
+        getLargestNum(numbers)
+      }
+
+      assert.throws(fn, /Empty array/)
     })
   })
 })
