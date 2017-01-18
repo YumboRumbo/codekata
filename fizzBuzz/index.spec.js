@@ -8,9 +8,11 @@ const { equal } = require('assert')
 describe('index.js', () => {
   describe('fizzBuzz()', () => {
     it('should return fizz for multiples of 3', () => {
+      // Setup
       const expected = 'fizz'
+      // Action
       const actual = fizzBuzz(6)
-
+      // Assert
       equal(actual, expected)
     })
 

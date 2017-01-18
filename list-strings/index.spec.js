@@ -11,6 +11,7 @@ describe('list-strings', () => {
 
       const expected = 10
       const actual = getLargestNum(numbers)
+      // c = f(a)
 
       equal(actual, expected)
     })
